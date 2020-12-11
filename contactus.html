@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+<title>
+Welcome</title>
+<script>
+  function clickAlert() {
+    alert("Thanks for your comment!!!:)");
+}
+</script>
+<meta name="viewport" content="width=device-width,intial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">
+</script>
+</head>
+<body>
+<div class="container">
+<div class="page-header"><h1><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;We Would like to hear from you!!!</h1>
+</div>
+<form class="form-horizontal" action="index.html">
+<div class="form-group">
+<label for="yourName" class="col-sm-3 control-label">Name</label>
+<div class="col-sm-9">
+<div class="input-group">
+<span class="input-group-addon glyphicon glyphicon-user">
+</span>
+<input type="text" class="form-Control" id="YourName" placeholder="Your name Please">
+</div>
+</div></div>
+<div class="form-group">
+<label for="YourEmail" class="col-sm-3 control-label">EmailAddress</label>
+<div class="col-sm-9">
+<div class="input-group">
+<span class="input-group-addon">@
+</span>
+<input type="email" class="form-control" id="YourEmail" placeholder="Your mail Please">
+</div>
+</div>
+</div>
+<div class="form-group">
+<label for="Your Comments" class="col-sm-3 control-label">Tell Us</label>
+<div class="col-sm-9">
+<div class="input-group">
+<span class="input-group-addon glyphicon glyphicon-comment">
+</span>
+<textarea class="form-control" id="Your comments" placeholder="Your Comments" rows="3"></textarea>
+</div></div></div>
+<div class="col-sm-9 col-sm-offset-3">
+<div class="checkbox">
+<label> <input type="checkbox">Subscribe Me!!!!</label></div>
+</div>
+<div class="clearfix">&nbsp;</div>
+<div class="col-sm-12 text-center">
+<button type="submit" class="btn btn-primary btn-lg" onClick="clickAlert()">
+<span class="glyphicon glyphicon-envelope"></span>&nbsp;post</button></div>
+</form>
+</div>
+</body>
+</html>
